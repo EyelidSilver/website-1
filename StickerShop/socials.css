@@ -1,0 +1,93 @@
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.icons a {
+  position: absolute;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 15px 16px;
+  width: 10px;
+  font-size: 15px;
+  color: white;
+  text-align: end;
+  font-family: "Roboto", sans-serif;
+}
+
+.icons__twitter {
+  bottom: 248px;
+  background-color: #14e7d2e8;
+  background-color: #14e7d2e8;
+}
+
+.icons__twitter:hover {
+  background-color: #3046c9;
+}
+
+.icons__twitter::before {
+  content: "\f099";
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.icons__linkedin {
+  bottom: 200px;
+  background-color: #14e7d2e8;
+}
+
+.icons__linkedin:hover {
+  background-color: #3046c9;
+}
+
+.icons__linkedin::before {
+  content: "\f0e1";
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.icons__facebook {
+  bottom: 152px;
+  background-color: #14e7d2e8;
+}
+
+.icons__facebook:hover {
+  background-color: #3046c9;
+}
+
+.icons__facebook::before {
+  content: "\f39e";
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.icons__github {
+  bottom: 104px;
+  background-color: #14e7d2e8;
+}
+
+.icons__github:hover {
+  background-color: #3046c9;
+}
+
+.icons__github::before {
+  content: "\f09b";
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size: 16px;
+}
+/*# sourceMappingURL=socials.css.map */

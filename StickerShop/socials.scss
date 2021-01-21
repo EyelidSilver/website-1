@@ -1,0 +1,72 @@
+@import "__constants.scss";
+
+.icons {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: end;
+  & a {
+    position: absolute;
+    transition: 0.3s;
+    padding: 15px 16px;
+    width: 10px;
+    font-size: 15px;
+    color: white;
+    text-align: end;
+    font-family: $font-for-icons;
+  }
+  &__twitter {
+    bottom: 248px;
+    background-color: #14e7d2e8;
+    background-color: #14e7d2e8;
+    &:hover{
+        background-color: #3046c9;
+    }
+    &::before {
+      content: "\f099";
+      font-family: FontAwesome;
+      display: $icons-display;
+      font-size: $font-size;
+    }
+  }
+  &__linkedin {
+    bottom: 200px;
+    background-color: #14e7d2e8;
+    &:hover {
+        background-color: #3046c9;
+    }
+    &::before {
+      content: "\f0e1";
+      font-family: FontAwesome;
+      display: $icons-display;
+      font-size: $font-size;
+    }
+  }
+  &__facebook {
+    bottom: 152px;
+    background-color: #14e7d2e8;
+    &:hover {
+        background-color: #3046c9;
+    }
+    &::before {
+      content: "\f39e";
+      font-family: FontAwesome;
+      display: $icons-display;
+      font-size: $font-size;
+    }
+  }
+  &__github {
+    bottom: 104px;
+    background-color: #14e7d2e8;
+    &:hover {
+        background-color: #3046c9;
+    }
+    &::before {
+      content: "\f09b";
+      font-family: FontAwesome;
+      display: $icons-display;
+      font-size: $font-size;
+    }
+  }
+}
